@@ -5,7 +5,7 @@ The server component is present in the server folder, along with a README descri
 
 The client component is in client, and consists primarily of a clientside script that should be in the pythonpath for the user.
 
-##Dependencies
+## Dependencies
 
 I'm not sure, but at least:
 
@@ -13,7 +13,7 @@ I'm not sure, but at least:
 - Bottle
 - Jupyter (for assignment notebooks)
 
-##Running example
+## Running example
 
 This repository is set up for running locally. To try it out, run the server script bottle_app.py with
 
@@ -21,6 +21,6 @@ This repository is set up for running locally. To try it out, run the server scr
 
 Then load up the client/Example.ipynb notebook in Jupyter notebook. You can execute the code blocks and see what it looks like from the student's perspective. The student is able to check their progress at the submissions page, which locally will be http://localhost:8080/submissions/username.
 
-##Running on PythonAnywhere
+## Running on PythonAnywhere
 
 For our course, we have run this on the free service http://pythonanywhere.com. You'll need to comment out the line at the bottom of bottle_app.py, as well as change the destination address in client_req.py.
